@@ -9,7 +9,7 @@ function isHabitable(planet) {
   );
 }
 const test = fs
-  .createReadStream("./solar_data.csv")
+  .createReadStream("./soar_data.csv")
   .pipe(
     parse({
       comment: "#",
