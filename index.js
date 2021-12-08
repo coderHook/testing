@@ -1,7 +1,7 @@
 const fs = require("fs");
 const { parse } = require("csv-parse");
 
-const assetsWithIntrinsicVal = [];
+const habitablePlanets = [];
 
 function isHabitable(planet) {
   return (
